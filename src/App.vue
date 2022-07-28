@@ -8,6 +8,8 @@
       <van-button type="default">默认按钮</van-button>
       <van-button type="warning">警告按钮</van-button>
       <van-button type="danger">危险按钮</van-button>
+
+      <div class="box">Hello World</div>
     </div>
     <router-view/>
   </div>
@@ -20,4 +22,8 @@ export default {
 </script>
 
 <style lang="less">
+.box{
+  background-color: pink;
+  width: 750px;
+}
 </style>
